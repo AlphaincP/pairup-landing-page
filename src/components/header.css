@@ -1,0 +1,103 @@
+.header{
+    clip-path: circle(50.0% at 100% 0);
+    background-color: black;
+    padding: 28em;
+}
+@media screen and (max-width:768px) {
+    .header{
+        clip-path: circle(44.1% at 100% 0);
+        padding: 13em;
+    }
+    
+}
+.header-content{
+    
+    margin-top: -55em;
+    margin-left: 0.5em;
+}
+.logo h4{
+    font-size: 2em;
+    padding: 1em;
+}
+.title{
+   margin: 3em 3em;
+}
+.title h3{
+   font-size: 1.5em;
+   font-weight: 400;
+}
+.title span{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2em 0;
+}
+hr{
+    padding: 0.3em;
+    border: none;
+    margin: 1em 3em;
+    width: 20%;
+    background-color: green;
+}
+.title-body{
+    margin: 6em 3em;
+}
+.title-body p{
+    font-size: 1.5em;
+}
+.title-body button{
+    padding: 1.5em 10em;
+    margin: 2em 0;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    .header-content{
+        margin-top: -27em;
+    }
+    .title h3{
+        font-size: 1.5em;
+    }
+    .logo h4{
+        font-size: 1.8em;
+    }
+    .title{
+        margin-left: 1em;
+    }
+    .title-body{
+        margin-top: 1.5em;
+        margin-left: 1.3em;
+    }
+    .title-body p{
+        font-size: 1.2em;
+    }
+    hr{
+        margin-left: 1em;
+    }
+    .title-body button{
+        padding: 1.2em 7em;
+    }
+}
+.img-image{
+    width: 400px;
+    margin-top: -4em;
+}
+@media screen and (min-width:768px) {
+    .img-image{
+        position: absolute;
+        top: 18%;
+        right: 2%;
+        width: 800px;
+    }
+}
+@media (min-width:800px) and (max-width:1300px) {
+    .img-image{
+        width: 650px;
+        top: 20%;
+    }
+    .title-body p{
+        font-size: 1em;
+    }
+}
