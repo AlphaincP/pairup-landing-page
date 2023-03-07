@@ -4,7 +4,9 @@ import './index.css';
 import moment from 'moment';
 import PropTypes from 'prop-types';
 import Header from './components/header';
-import Work from './components/work'
+import Work from './components/work';
+import Benefit from './components/benefit';
+import Feature from './components/feature';
  
 const node = document.getElementById('root');
 
@@ -14,6 +16,8 @@ function App(){
     <div className='app'>
       <Header/>
       <Work/>
+      <Benefit/>
+      <Feature/>
     </div>
   )
 }
